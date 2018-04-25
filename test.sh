@@ -15,4 +15,4 @@ do
     cmp --silent output.txt output.builtin.txt || echo "Ooops! Files are different!"
 done
 
-rm output.builtin.txt
+rm input.txt output.txt output.builtin.txt
