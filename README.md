@@ -13,7 +13,7 @@ Example usage:
 ```bash
 
 # generate a big file
-python3 generator.py huge_input.txt --num_str 50000000 --str_size 100
+python3 generator.py huge_input.txt --num_lines 50000000 --str_size 100
 
 # sort it using approximately 2GB of RAM (in practice it can take a little more)
 python3 external_sort.py huge_input.txt huge_output.txt --num_lines 50000000 --ram 2000000000 -k 3
