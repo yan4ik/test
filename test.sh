@@ -8,7 +8,7 @@ for iteration in {1..10}
 do
     python3 generator.py input.txt -n $num_str -s $str_len
     
-    python3 external_sort.py input.txt output.txt -n $num_str -r $ram -k 10
+    python3 external_sort.py input.txt output.txt -n $num_str -r $ram -k 3
     
     sort input.txt > output.builtin.txt
 
