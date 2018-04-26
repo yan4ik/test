@@ -1,7 +1,6 @@
 import os
 import io
 import tempfile
-import shutil
 
 from utils import line_count
 
