@@ -7,7 +7,7 @@ Source code overview:
  * `external_sort.py` - sorts the file using k-way merge sort.
  * `disk_array.py` - classes of external memory arrays.
  * `utils.py` - misc utility functions.
- * `test.py` - simple test utility to compare against unix built-in `sort` function.
+ * `test.sh` - simple test utility to compare against unix built-in `sort` function.
 
 Example usage:
 ```bash
